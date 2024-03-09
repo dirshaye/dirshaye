@@ -1,7 +1,7 @@
 <div align="center">
   <img height="200" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOW1sMnVybGk0aHF0ZGRucXI4N2d6Ynd0OWt3c3Jlejlwb242Z3JnaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/77rvjVcaJr1BgKSXtR/giphy.gif"  />
 </div>
-<h3 align="center">HI THERE 😀<h3>
+<h3 align="center">HI THERE<h3>
 
 
 <div align="center">

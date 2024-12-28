@@ -3,7 +3,6 @@
 </div>
 
 <h3 align="center">HI THERE</h3>
-<p align="center">I’m a software engineering student passionate about backend development, data engineering, and crafting data-driven solutions.</p>
 
 <div align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="Python logo" />
@@ -30,4 +29,11 @@
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="LinkedIn logo" />
   </a>
   <p>Connect with me on <a href="https://www.linkedin.com/in/dirshaye/" target="_blank">LinkedIn</a>!</p>
+</div>
+
+###
+
+<div align="center">
+  <h3>Watch My Contribution Snake!</h3>
+  <img src="https://github.com/dirshaye/dirshaye/blob/output/github-contribution-grid-snake.svg" alt="GitHub Snake Game" />
 </div>

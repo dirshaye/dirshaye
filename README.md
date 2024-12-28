@@ -45,14 +45,6 @@
 
 ###
 
-<div align="center">
-  <a href="https://github.com/dirshaye" target="_blank">
-    <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="40" height="40" alt="GitHub logo" />
-  </a>
-  <a href="https://www.linkedin.com/in/dirshaye/" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="LinkedIn logo" />
-  </a>
-</div>
 
 ###
 

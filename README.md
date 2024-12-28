@@ -54,8 +54,3 @@
 </div>
 
 ###
-
-<p align="center">
-  Check out my GitHub profile at: <a href="https://github.dirshaye.net" target="_blank">github.dirshaye.net</a><br>
-  Contact me at: <a href="mailto:me@dirshaye.net">me@dirshaye.net</a>
-</p>

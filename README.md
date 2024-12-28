@@ -50,7 +50,7 @@
 
 <div align="center">
   <h3>Watch My Contribution Snake!</h3>
-  <img src="https://github.com/dirshaye/dirshaye/blob/output/github-contribution-grid-snake.svg" alt="GitHub Snake Game" />
+  <img src="https://github.com/dirshaye/dirshaye/blob/main/.github/workflows/snake.yml" alt="GitHub Snake Game" />
 </div>
 
 ###

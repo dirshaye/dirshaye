@@ -4,9 +4,7 @@
 
 <h3 align="center">HI THERE</h3>
 <p align="center">
-  I’m a backend developer and data engineer with experience in Python (Django), Java (Spring Boot), databases (PostgreSQL and MongoDB), and API development (REST, gRPC). 
-  Skilled in data warehousing tools (Redshift), ETL processes, big data tools like Apache Spark, containerization (Docker), orchestration (Kubernetes), cloud platforms (AWS), 
-  version control (Git), working in Linux environments, and data visualization and machine learning libraries such as Matplotlib and Scikit-learn.
+ Iam Backend developer and data engineer with experience in Python (Django), Java (Spring Boot), databases (PostgreSQL and MongoDB), and API development (REST, gRPC), data warehousing(Redshift), ETL processes, big data tool(Apache Spark), cloud platforms (AWS), data visualization(Matplotlib), containerization (Docker), orchestration (Kubernetes),  version control (Git), and working in Linux environments.
 </p>
 <p align="center">
   I am driven by a passion for leveraging data to build efficient, impactful systems that solve real-world problems.
@@ -40,7 +38,7 @@
   <img width="12" />
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Created_with_Matplotlib-logo.svg/1024px-Created_with_Matplotlib-logo.svg.png" height="40" alt="Matplotlib logo" />
   <img width="12" />
-  <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" height="40" alt="Scikit-learn logo" />
+  />
 </div>
 
 ###

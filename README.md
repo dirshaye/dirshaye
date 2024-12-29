@@ -22,11 +22,11 @@
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="40" alt="PostgreSQL logo" />
   <img width="12" />
-   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" height="40" alt="Azure logo" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" height="40" alt="MongoDB logo" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" height="40" alt="Azure logo" />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apache/apache-original-wordmark.svg" height="40" alt="Apache Spark logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" height="40" alt="MongoDB logo" />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="40" alt="Docker logo" />
   <img width="12" />
@@ -36,16 +36,24 @@
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="40" alt="Linux logo" />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="Python logo" /> REST
-  <img width="12" />
-  <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Grpc-logo.png" height="40" alt="gRPC logo" /> gRPC
-  <img width="12" />
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/ETL-pictogram.svg/1200px-ETL-pictogram.svg.png" height="40" alt="ETL Process logo" /> ETL Process
-  <img width="12" />
-  <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/AmazonWebservices_Logo.svg" height="40" alt="Redshift logo" /> Redshift
-  <img width="12" />
 
- 
+  <!-- REST -->
+<img src="https://upload.wikimedia.org/wikipedia/commons/a/a1/REST_API_Logo.svg" height="40" alt="REST logo" /> REST
+<img width="12" />
+
+<!-- gRPC -->
+<img src="https://grpc.io/img/logos/grpc-logo.png" height="40" alt="gRPC logo" /> gRPC
+<img width="12" />
+
+<!-- ETL -->
+<img src="https://upload.wikimedia.org/wikipedia/commons/1/11/ETL-pictogram.svg" height="40" alt="ETL Process logo" /> ETL Process
+<img width="12" />
+
+<!-- Redshift -->
+<img src="https://d2908q01vomqb2.cloudfront.net/4f6b926ea32a8337c931fa3e47df7f9b/images/aws-redshift-logo.png" height="40" alt="Redshift logo" /> Redshift
+<img width="12" />
+
+  
 </div>
 
 ###

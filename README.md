@@ -37,21 +37,7 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="40" alt="Linux logo" />
   <img width="12" />
 
-  <!-- REST -->
-<img src="https://upload.wikimedia.org/wikipedia/commons/a/a1/REST_API_Logo.svg" height="40" alt="REST logo" /> REST
-<img width="12" />
 
-<!-- gRPC -->
-<img src="https://grpc.io/img/logos/grpc-logo.png" height="40" alt="gRPC logo" /> gRPC
-<img width="12" />
-
-<!-- ETL -->
-<img src="https://upload.wikimedia.org/wikipedia/commons/1/11/ETL-pictogram.svg" height="40" alt="ETL Process logo" /> ETL Process
-<img width="12" />
-
-<!-- Redshift -->
-<img src="https://d2908q01vomqb2.cloudfront.net/4f6b926ea32a8337c931fa3e47df7f9b/images/aws-redshift-logo.png" height="40" alt="Redshift logo" /> Redshift
-<img width="12" />
 
   
 </div>

@@ -38,7 +38,6 @@
   <img width="12" />
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Created_with_Matplotlib-logo.svg/1024px-Created_with_Matplotlib-logo.svg.png" height="40" alt="Matplotlib logo" />
   <img width="12" />
-  />
 </div>
 
 ###

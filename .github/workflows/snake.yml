@@ -21,6 +21,10 @@ jobs:
 
       - name: Push Generated Snake
         uses: ad-m/github-push-action@v0.6
+        
+      - name: GitHub Push
+        uses: ad-m/github-push-action@v0.8.0
+            
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: output

@@ -4,9 +4,6 @@
 
 <h3 align="center">HI THERE</h3>
 <p align="center">
- Backend developer and data engineer with experience in Python (Django), Java (Spring Boot), and databases (PostgreSQL, MongoDB). Proficient in API development (REST, gRPC), ETL processes, and leveraging cloud platforms like Azure for scalable solutions. Skilled in data warehousing (Redshift), big data tools (Apache Spark), containerization (Docker), orchestration (Kubernetes), version control (Git), and Linux environments.
-</p>
-<p align="center">
   I am driven by a passion for leveraging data to build efficient, impactful systems that solve real-world problems.
 </p>
 

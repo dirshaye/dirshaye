@@ -20,7 +20,7 @@ jobs:
           outputs: dist/github-contribution-grid-snake.svg
 
       - name: Push Generated Snake
-        uses: ad-m/github-push-action@v0.6
+        uses: ad-m/github-push-action@master
         
       - name: GitHub Push
         uses: ad-m/github-push-action@v0.8.0

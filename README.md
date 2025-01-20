@@ -4,7 +4,7 @@
 
 <h3 align="center">HI THERE</h3>
 <p align="center">
-  I am driven by a passion for leveraging data to build efficient, impactful systems that solve real-world problems.
+  driven by a passion for leveraging data to build efficient, impactful systems that solve real-world problems.
 </p>
 
 <div align="center">

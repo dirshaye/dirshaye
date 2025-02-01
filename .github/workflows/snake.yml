@@ -5,6 +5,9 @@ on:
     - cron: "0 0 * * *" # Runs daily
   workflow_dispatch:
 
+permissions:
+  contents: write # Ensure the workflow has write permissions
+
 jobs:
   generate:
     runs-on: ubuntu-latest
@@ -14,18 +17,26 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Generate Snake SVG
-        uses: Platane/snk@v2
+        uses: Platane/snk-action@v3 # Updated action version
         with:
           github_user_name: dirshaye
+          outputs: dist/github-contribution-grid-snake.svg
+
+      - name: Check Generated File
+        run: ls -l dist # Debugging step to ensure file exists
+
+      - name: Ensure output branch exists
+        run: |
+          git fetch origin output || git checkout --orphan output
+          git reset --hard
 
       - name: Commit and Push Generated Snake
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          # Ensure the output branch exists
-          git config user.name "GitHub Actions"
-          git config user.email "actions@github.com"
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
           git checkout -B output
           git add -f dist/github-contribution-grid-snake.svg
-          git commit -m "Generated contribution snake"
+          git commit -m "Generated contribution snake" || echo "No changes to commit"
           git push -u origin output --force

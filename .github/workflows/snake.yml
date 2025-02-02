@@ -6,7 +6,7 @@ on:
   workflow_dispatch: # Allows manual triggering
 
 permissions:
-  contents: write # Ensures the workflow can push updates
+  contents: write # Ensures the workflow has write permissions
 
 jobs:
   generate:
@@ -16,14 +16,13 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
 
-      - name: Generate Snake SVG
-        uses: Platane/snk-action@v3 # Using updated version
-        with:
-          github_user_name: dirshaye
-          outputs: snake.svg
-
-      - name: Move SVG to Root (if needed)
-        run: mv snake.svg snake.svg || true
+      - name: Generate Snake SVG using Docker
+        run: |
+          docker run --rm \
+            -e GITHUB_USER=dirshaye \
+            -v ${{ github.workspace }}:/data ghcr.io/platane/snk \
+            --output /data/snake.svg \
+            --github_user dirshaye
 
       - name: Ensure Output Branch Exists
         run: |

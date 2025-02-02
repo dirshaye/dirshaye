@@ -29,6 +29,9 @@ jobs:
           git fetch origin output || git checkout --orphan output
           git reset --hard
 
+      - name: Debug Environment Variables
+        run: printenv # Add this step to print all environment variables
+
       - name: Commit and Push Generated Snake
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

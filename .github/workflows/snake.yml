@@ -3,10 +3,10 @@ name: Generate Contribution Snake
 on:
   schedule:
     - cron: "0 0 * * *" # Runs daily
-  workflow_dispatch: # Allows manual triggering
+  workflow_dispatch:
 
 permissions:
-  contents: write # Ensures the workflow has write permissions
+  contents: write # Ensure GitHub Actions can push updates
 
 jobs:
   generate:
@@ -16,13 +16,13 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
 
-      - name: Generate Snake SVG using Docker
+      - name: Generate Snake via GitHub API
         run: |
-          docker run --rm \
-            -e GITHUB_USER=dirshaye \
-            -v ${{ github.workspace }}:/data ghcr.io/platane/snk \
-            --output /data/snake.svg \
-            --github_user dirshaye
+          mkdir -p dist
+          curl -o dist/snake.svg "https://github.com/Platane/snk/raw/output/github-contribution-grid-snake.svg"
+
+      - name: Check Generated File
+        run: ls -l dist # Debugging step to verify the file
 
       - name: Ensure Output Branch Exists
         run: |
@@ -36,6 +36,6 @@ jobs:
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           git checkout -B output
-          git add -f snake.svg
+          git add -f dist/snake.svg
           git commit -m "Updated contribution snake" || echo "No changes to commit"
           git push -u origin output --force

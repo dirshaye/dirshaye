@@ -44,8 +44,9 @@
 
 <div align="center">
   <h3>Watch My Contribution Snake!</h3>
-  <img src="https://github.com/dirshaye/dirshaye/raw/output/snake.svg" alt="GitHub Snake Game" />
+  <img src="https://github.com/dirshaye/dirshaye/raw/output/dist/snake.svg" alt="GitHub Snake Game" />
 </div>
+
 
 
 ###

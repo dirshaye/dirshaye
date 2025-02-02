@@ -24,6 +24,9 @@ jobs:
       - name: Check Generated File
         run: ls -l dist # Debugging step to verify the file exists
 
+      - name: Print SVG Content
+        run: cat dist/snake.svg # Print the content of the downloaded SVG file
+
       - name: Ensure Output Branch Exists
         run: |
           git fetch origin output || git checkout --orphan output

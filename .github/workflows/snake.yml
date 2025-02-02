@@ -3,10 +3,10 @@ name: Generate Contribution Snake
 on:
   schedule:
     - cron: "0 0 * * *" # Runs daily
-  workflow_dispatch:
+  workflow_dispatch: # Allows manual triggering
 
 permissions:
-  contents: write # Ensure GitHub Actions can push updates
+  contents: write # Ensures GitHub Actions can push updates
 
 jobs:
   generate:
@@ -16,13 +16,14 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
 
-      - name: Generate Snake via GitHub API
-        run: |
-          mkdir -p dist
-          curl -o dist/snake.svg "https://github.com/Platane/snk/raw/output/github-contribution-grid-snake.svg"
+      - name: Generate Snake SVG (Alternative Fork)
+        uses: crazy-max/ghaction-github-contribution-grid-snake@v2
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          output: dist/snake.svg
 
       - name: Check Generated File
-        run: ls -l dist # Debugging step to verify the file
+        run: ls -l dist # Debugging step to verify the file exists
 
       - name: Ensure Output Branch Exists
         run: |

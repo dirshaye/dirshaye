@@ -16,10 +16,10 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
 
-      - name: Generate Contribution Snake
+      - name: Download Contribution Graph as SVG
         run: |
           mkdir -p dist
-          curl -L https://ghchart.rshah.org/dirshaye -o dist/snake.svg
+          curl -o dist/snake.svg "https://ghchart.rshah.org/dirshaye"
 
       - name: Check Generated File
         run: ls -l dist # Debugging step to verify the file exists

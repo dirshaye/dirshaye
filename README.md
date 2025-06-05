@@ -2,9 +2,9 @@
   <img height="200" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOW1sMnVybGk0aHF0ZGRucXI4N2d6Ynd0OWt3c3Jlejlwb242Z3JnaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/77rvjVcaJr1BgKSXtR/giphy.gif" />
 </div>
 
-<h3 align="center">HI THERE</h3>
+
 <p align="center">
-  driven by a passion for leveraging data to build efficient, impactful systems that solve real-world problems.
+  İ am driven by a passion for leveraging data to build efficient, impactful systems that solve real-world problems.
 </p>
 
 <div align="center">
@@ -40,13 +40,3 @@
 ###
 
 
-###
-
-<div align="center">
-  <h3>Watch My Contribution Snake!</h3>
-  <img src="https://github.com/dirshaye/dirshaye/raw/output/dist/snake.svg" alt="GitHub Snake Game" />
-</div>
-
-
-
-###

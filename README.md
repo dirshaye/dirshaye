@@ -4,11 +4,10 @@
 
 
 <p align="center">
-  İ am driven by a passion for leveraging data to build efficient, impactful systems that solve real-world problems.
 </p>
 
 <div align="center">
-  <h3>Tech Stack</h3>
+  <h3>Some of my Tech Stacks</h3>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="Python logo" />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" height="40" alt="Django logo" />

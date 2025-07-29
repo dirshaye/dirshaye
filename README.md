@@ -29,8 +29,6 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="40" alt="Linux logo" />
   <img width="12" />
 
-  ![GitHub Project Tracker](https://img.shields.io/badge/Project-Tracker-blue?logo=github)
-
 
 
 

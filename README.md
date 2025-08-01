@@ -1,5 +1,5 @@
 <div align="center">
-  <h2>🚀 Technical Skills</h2>
+  <h2>Tech Stack</h2>
 
   <!-- Languages -->
   <h4>Languages</h4>
@@ -37,7 +37,7 @@
   <img width="10"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apache/apache-original-wordmark.svg" height="40" alt="Apache Spark"/>
   <img width="10"/>
-  <img src="https://seeklogo.com/images/A/airflow-logo-6B90F71D7F-seeklogo.com.png" height="40" alt="Airflow"/>
+  <img src="https://raw.githubusercontent.com/apache/airflow/main/docs/apache-airflow/img/logos/airflow_horizontal_color.svg" height="30" style="margin-top: 4px;" alt="Apache Airflow" />
   <img width="10"/>
   <img src="https://cdn.worldvectorlogo.com/logos/prefect-1.svg" height="40" alt="Prefect"/>
 

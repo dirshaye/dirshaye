@@ -1,47 +1,31 @@
-name: Generate Contribution Snake
+name: Generate Snake
 
 on:
   schedule:
-    - cron: "0 0 * * *" # Runs daily
-  workflow_dispatch: # Allows manual triggering
-
-permissions:
-  contents: write # Ensures GitHub Actions can push updates
+    - cron: "0 0 * * *"  # run daily
+  workflow_dispatch:
 
 jobs:
-  generate:
+  build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
-      - name: Checkout Repository
+      - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Download Contribution Graph as SVG
+      - name: Generate GitHub Snake
+        uses: Platane/snk@v3
+        with:
+          github_user_name: dirshaye
+          outputs: |
+            dist/snake.svg
+
+      - name: Commit and push
         run: |
-          mkdir -p dist
-          curl -o dist/snake.svg "https://ghchart.rshah.org/dirshaye"
-
-      - name: Check Generated File
-        run: ls -l dist # Debugging step to verify the file exists
-
-      - name: Print SVG Content
-        run: cat dist/snake.svg # Print the content of the downloaded SVG file
-
-      - name: Ensure Output Branch Exists
-        run: |
-          git fetch origin output || git checkout --orphan output
-          git reset --hard
-
-      - name: Debug Environment Variables
-        run: printenv # Add this step to print all environment variables
-
-      - name: Commit and Push Generated Snake
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          git config --global user.name "GitHub Actions"
-          git config --global user.email "actions@github.com"
-          git checkout -B output
-          git add -f dist/snake.svg
-          git commit -m "Updated contribution snake" || echo "No changes to commit"
-          git push -u origin output --force
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add dist/snake.svg
+          git commit -m "Generated snake animation" || echo "No changes"
+          git push

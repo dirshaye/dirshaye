@@ -33,5 +33,3 @@
 
 </div>
 
-![GitHub Snake Light](https://raw.githubusercontent.com/dirshaye/dirshaye/main/dist/snake.svg)
-

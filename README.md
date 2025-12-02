@@ -32,3 +32,6 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="40" alt="Linux"/>
 
 </div>
+
+![GitHub Snake Light](https://raw.githubusercontent.com/dirshaye/dirshaye/main/dist/snake.svg)
+
